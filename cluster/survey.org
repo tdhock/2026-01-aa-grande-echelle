@@ -1,0 +1,35 @@
+- 10-100 students
+- project 100-500Gb
+- scratch 100-500Gb
+- home 2-5Gb
+- GPU only or GPU and CPU
+
+Requirements for GPU tasks
+
+- 5-10Gb GPU memory per task
+- 4-8Gb system memory per task
+- 1 CPU core per task
+- Yes also need CPU nodes
+
+Requirements for CPU tasks
+
+- more than 8Gb
+- 1 CPU core per task
+
+How to connect?
+
+- Via a browser and ssh
+
+Peak usage expected
+
+Homework due dates will be on Friday evenings, so most likely peak usage on Thursday and Friday.
+
+Software
+
+R-4.5.2 + lots of packages from CRAN (torch, mlr3, ...) that the students may have to install themselves?
+Python (not sure what version is best) + lots of packages from PyPI, including PyTorch stable (2.9.1), NumPy, Pandas, Polars, plotnine, ...
+
+Other needs: total 10,000 CPUs for the group (not all used all the time, probably only maxing out usage around homework due dates on Thursdays and Fridays). I will be teaching how to use SLURM job arrays, and students will be using them to parallelize machine learning benchmarks (typically 100s of tasks in each job array). Enforcing a max of 1000 jobs or tasks per user would be appropriate, to simulate how the real compute canada clusters work (they still have max 1000 jobs per user, right?).
+
+I was not sure about how much memory I needed, especially for the GPUs, so I just picked the options which were next-to-largest.
+Also I was not sure about which software versions needed for python -- typically I just use anaconda but I know that is not allowed on compute canada clusters, so I guess whatever is the most recent release version of python and pytorch etc would be great, thanks!
