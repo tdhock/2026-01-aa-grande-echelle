@@ -70,6 +70,7 @@ Data visualization with grammar of graphics
 Machine learning with mlr3
 - [[https://mlr3book.mlr-org.com/][mlr3book]]
 - [[https://mlr-org.github.io/mlr3torch-course/][mlr3torch-course]]
+- [[https://slds-lmu.github.io/i2ml/][Intro2ML class at LMU]]
 
 Guides to writing an R package with C/C++ code.
 - [[https://teuder.github.io/rcpp4everyone_en/][Rcpp for Everyone by Masaki E. Tsuda]].
