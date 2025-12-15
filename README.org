@@ -105,6 +105,7 @@ Guides to writing an R package with C/C++ code.
 - 20 oct, semaine 9, relâche
 - 27 oct, semaine 10
   - collaboration sur github
+  - Diapos [[https://docs.google.com/presentation/d/1HWStDr_t0F0BEFYGGsRURu3wNw2QdO9lZNUGRXt_28g/edit?usp=sharing][Contribution aux logiciels libres]]
   - Organiser et publier un projet de recherche reproductible : github, zenodo
 - 3 nov, semaine 11
   - Programmation python, doc strings, site web de documentation,
