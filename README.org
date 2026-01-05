@@ -14,7 +14,9 @@ Site : https://github.com/tdhock/2025-08-aa-grande-echelle
 
 Plan de cours : [[file:HOCKING_plan_de_cours_H2026.pdf]], [[https://usherbrooke-my.sharepoint.com/:w:/r/personal/hoct2726_usherbrooke_ca/_layouts/15/Doc.aspx?sourcedoc=%7BE50381C2-432D-4328-A779-3A3AA5057FD6%7D&file=HOCKING_IFT704_plan_de_cours_revision_novembre_2025.docx&action=default&mobileredirect=true][source]].
 
-** Projets
+** Travaux Pratiques
+
+- [[file:tps/tp1.md][TP1: validation croisée dans Python]].
 
 - Package R avec documentation, tests, code C++
 - Package Python avec documentation, tests, code C++
