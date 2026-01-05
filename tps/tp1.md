@@ -8,6 +8,8 @@ Utilisez [`cross_validate`](https://scikit-learn.org/stable/modules/cross_valida
 * [DummyClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html#sklearn.dummy.DummyClassifier)
 * `GridSearchCV(cv=3)` avec `KNeighborsClassifier` pour coder les plus proches voisins, avec nombre de voisins entre 1 et 40. 
 
+Il devrait avoir deux boucles, sur les algorithmes et les jeux de données.
+Sauvegarder tous les résultats dans un DataFrame.
 Utilisez plotnine pour dessiner les résultats.
 
 * X = taux d’erreur
@@ -20,8 +22,6 @@ Comme ça
 ![alt](tp1-err-dots.png)
 
 ![alt](tp1-err-facets.png)
-
-R
 
 Soumettez un fichier PDF avec vos codes et vos graphiques.
 
