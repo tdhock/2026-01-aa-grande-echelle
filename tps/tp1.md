@@ -21,8 +21,12 @@ Comme ça
 
 ![alt](tp1-err-facets.png)
 
+R
 
+Soumettez un fichier PDF avec vos codes et vos graphiques.
 
+* mettez en gras une section « extra points » si vous tenter les exercises facultatives ci-dessous.
+* suivez [les standards dans la rédaction de code python](https://docs.google.com/document/d/1Co1y6bvnNdadnzwAt575JFLkIvGZsQ35ED3QJgMfA3Y/edit?tab=t.0)
 
 ## extra points
 
