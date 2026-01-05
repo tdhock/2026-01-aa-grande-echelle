@@ -17,7 +17,7 @@ Utilisez plotnine pour dessiner les résultats.
 * un point pour chaque division de validation croisée
 * `facet_grid()` un panneau pour chaque jeu de données
 
-Comme ça
+Comme ça 
 
 ![alt](tp1-err-dots.png)
 

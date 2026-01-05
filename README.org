@@ -20,7 +20,17 @@ Plan de cours : [[file:HOCKING_plan_de_cours_H2026.pdf]], [[https://usherbrooke-
 [[https://mokey.ift704.calculquebec.cloud/auth/signup][Inscrivez-vous ici]].
 Je vous approuve [[https://ipa.ift704.calculquebec.cloud/ipa/ui/][ici]].
 
-- [[file:tps/tp1.md][TP1: validation croisée dans Python]].
+| Sujet                                 | À remettre |
+|---------------------------------------+------------|
+| [[file:tps/tp1.md][TP1 : validation croisée dans Python]]  | 16 jan     |
+| TP2 : validation croisée dans R       | 23 jan     |
+| TP3 : grappe de calcul avec R         | 30 jan     |
+| TP4 : grappe de calcul avec Python    | 6 fév      |
+| TP5 : généralisation, MNIST et KMNIST | 13 fév     |
+| TP6 : généralisation, images          | 20 fév     |
+| TP7 : entraînement sur GPU            | 27 fév     |
+| TP8 : création d’un package python    |            |
+| TP9 : création d’un package R         |            |
 
 L’échelle pour noter chaque TP.
 
@@ -96,6 +106,7 @@ Guides to writing an R package with C/C++ code.
 
 - 25 août, semaine 1
   - rappels de python / scikit learn
+  - Diapos [[https://docs.google.com/presentation/d/1F8R5bDK_H8Y6H9eK1eaH0_Ojb-gBbU7uz1cY95RqD7U/edit?usp=sharing][C’est quoi l’apprentissage artificiel]]
   - Diapos [[https://docs.google.com/presentation/d/1sEs5MGnUMO4CrPfA2nyklcaRvlaevCjsgU5fciMm9Bk/edit?slide=id.p#slide=id.p][Apprentissage et mémorisation]]
 - 1 sept, semaine 2
   - Fête du Travail : 1er septembre
