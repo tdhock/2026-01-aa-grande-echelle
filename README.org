@@ -104,43 +104,50 @@ Guides to writing an R package with C/C++ code.
 
 ** Calendrier
 
-- 25 août, semaine 1
+- 5 jan, semaine 1
   - rappels de python / scikit learn
+  - Diapos [[https://docs.google.com/presentation/d/1U7RgXtTttg8TxBRYs0aRApcJvQ5tUQrbIvMxKp7XlbA/edit?usp=sharing][Les outils d’un informaticien]]
   - Diapos [[https://docs.google.com/presentation/d/1F8R5bDK_H8Y6H9eK1eaH0_Ojb-gBbU7uz1cY95RqD7U/edit?usp=sharing][C’est quoi l’apprentissage artificiel]]
   - Diapos [[https://docs.google.com/presentation/d/1sEs5MGnUMO4CrPfA2nyklcaRvlaevCjsgU5fciMm9Bk/edit?slide=id.p#slide=id.p][Apprentissage et mémorisation]]
-- 1 sept, semaine 2
+- 12 jan, semaine 2
   - Fête du Travail : 1er septembre
   - bases de R / mlr3
-- 8 sept, semaine 3
+- 19 jan, semaine 3
   - Apprentissage en parallèle sur grappe de calcul (python)
-- 15 sept, semaine 4
+- 26 jan, semaine 4
   - apprentissage en parallèle sur grappe de calcul (R)
-- 22 sept, semaine 5
+- 2 fév, semaine 5
   - validation croisée, comparer entraînement sur différentes sous-ensembles
-- 29 sept, semaine 6
+- 9 fév, semaine 6
   - Journée nationale de la vérité et de la réconciliation : 30 septembre
   - acceleration avec GPU
-- 6 oct, semaine 7
-- 13 oct, semaine 8
+- 16 fév, semaine 7
+- 23 fév, semaine 8
   - Jour de l’Action de grâce : 13 octobre
-  - revision et examen
-- 20 oct, semaine 9, relâche
-- 27 oct, semaine 10
+  - révision et examen
+- 2 mar, semaine 9
+  - pas de cours (relâche)
+- 9 mar, semaine 10
   - collaboration sur github
   - Diapos [[https://docs.google.com/presentation/d/1HWStDr_t0F0BEFYGGsRURu3wNw2QdO9lZNUGRXt_28g/edit?usp=sharing][Contribution aux logiciels libres]]
   - Organiser et publier un projet de recherche reproductible : github, zenodo
-- 3 nov, semaine 11
+- 16 mar, semaine 11
   - Programmation python, doc strings, site web de documentation,
     tests, PyPI, intégration de code C++, API C pour tableaux numpy
-- 10 nov, semaine 12
+- 23 mar, semaine 12
   - Programmation R, créer paquetage R avec documentation, tests,
     vignettes, C++ code, etc.
     https://github.com/tdhock/2023-08-unsupervised-learning/blob/main/homeworks/Rpkg.org
-- 17 nov, semaine 13
+- 30 mar, semaine 13
   - DevOps et MLOps: intégration et livraison en continu (CI-CD),
     actions github, tests automatisés, couverture de code, analyse
     comparative de performance en continu.
-- 24 nov, semaine 14
-- 1 déc, semaine 15
+  - pas de cours le vendredi 3 avril (vendredi saint)
+- 6 avr, semaine 14
+  - pas de cours le lundi 6 avril (pâques)
+- 13 avr, semaine 15
+  - dernière semaine d’instruction
 - 8 déc, semaine 16
+  - révision
 - 15 déc, semaine 17
+  - examen
