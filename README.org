@@ -110,9 +110,11 @@ Guides to writing an R package with C/C++ code.
   - Diapos [[https://docs.google.com/presentation/d/1XmEp-xbYN23wbk4JcmBIfeJg9qH_8bfLWjSF7OEkiQs/edit?usp=sharing][Validation croisée]]
   - Diapos [[https://docs.google.com/presentation/d/1U7RgXtTttg8TxBRYs0aRApcJvQ5tUQrbIvMxKp7XlbA/edit?usp=sharing][Les outils d’un informaticien]]
 - 12 jan, semaine 2
+  - bases de R / mlr3
   - Diapos [[https://docs.google.com/presentation/d/11Hx7Eo40EeX-9shLha9gSzgHpcWAO0TuekBYXgtwshA/edit?usp=sharing][Standards dans la rédaction du code]]
   - Diapos [[https://docs.google.com/presentation/d/1sEs5MGnUMO4CrPfA2nyklcaRvlaevCjsgU5fciMm9Bk/edit?slide=id.p#slide=id.p][Apprentissage et mémorisation]]
-  - bases de R / mlr3
+  - Diapos [[https://docs.google.com/presentation/d/1ebLJxY57OdFm7v_G6feoVFypwBe1PiG6Mf7v7UL6WCw/edit?usp=sharing][data.table pour la traitement efficace des grands jeux de données]]
+  - Chapitre [[https://131-merge--animint-manual-fr.netlify.app/ch20/ch20-viz#learners][Apprentissage artificiel avec mlr3]]
 - 19 jan, semaine 3
   - Apprentissage en parallèle sur grappe de calcul (python)
 - 26 jan, semaine 4
