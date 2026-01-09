@@ -106,13 +106,12 @@ Guides to writing an R package with C/C++ code.
 
 - 5 jan, semaine 1
   - rappels de python / scikit learn
-  - Diapos [[https://docs.google.com/presentation/d/1F8R5bDK_H8Y6H9eK1eaH0_Ojb-gBbU7uz1cY95RqD7U/edit?usp=sharing][C’est quoi l’apprentissage artificiel]]
+  - Diapos [[https://docs.google.com/presentation/d/1F8R5bDK_H8Y6H9eK1eaH0_Ojb-gBbU7uz1cY95RqD7U/edit?usp=sharing][C’est quoi l’apprentissage artificiel à grande échelle ?]]
+  - Diapos [[https://docs.google.com/presentation/d/1XmEp-xbYN23wbk4JcmBIfeJg9qH_8bfLWjSF7OEkiQs/edit?usp=sharing][Validation croisée]]
   - Diapos [[https://docs.google.com/presentation/d/1U7RgXtTttg8TxBRYs0aRApcJvQ5tUQrbIvMxKp7XlbA/edit?usp=sharing][Les outils d’un informaticien]]
+- 12 jan, semaine 2
   - Diapos [[https://docs.google.com/presentation/d/11Hx7Eo40EeX-9shLha9gSzgHpcWAO0TuekBYXgtwshA/edit?usp=sharing][Standards dans la rédaction du code]]
   - Diapos [[https://docs.google.com/presentation/d/1sEs5MGnUMO4CrPfA2nyklcaRvlaevCjsgU5fciMm9Bk/edit?slide=id.p#slide=id.p][Apprentissage et mémorisation]]
-  - Diapos [[https://docs.google.com/presentation/d/1XmEp-xbYN23wbk4JcmBIfeJg9qH_8bfLWjSF7OEkiQs/edit?usp=sharing][Validation croisée]]
-- 12 jan, semaine 2
-  - Fête du Travail : 1er septembre
   - bases de R / mlr3
 - 19 jan, semaine 3
   - Apprentissage en parallèle sur grappe de calcul (python)
