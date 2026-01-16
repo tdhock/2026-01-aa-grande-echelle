@@ -38,7 +38,7 @@ Soumettez un fichier PDF avec vos codes, vos réponses, et vos graphiques.
 
 * +10 si vous codez une classe `GlmnetCV` avec méthodes `fit` et `predict` basés sur [cvglmnet](https://glmnet-python.readthedocs.io/en/latest/glmnet_vignette.html#Logistic-Regression).
 * +10 si vous stockez `best_params_` de `GridSearchCV`, pour ensuite afficher les différents valeurs choisis pour le nombre de voisins. Est-ce que le meilleur nombre de voisins est le même à travers les différents jeux de données ? Ou différent ?
-* +10 si vous rajoutez `geom_text` avec la moyenne ± écart type, trier Y par moyenne, et un autre `geom_text` avec P d’un T-test pour savoir s’il y a une différence significatif entre les algos, comme ça
+* +10 si vous rajoutez `geom_text` avec la moyenne ± écart type, trier Y par moyenne, et un autre `geom_text` avec P d’un T-test pour savoir s’il y a une différence significative entre les algos, comme ça
 
 ![alt](tp1-err-pval.png)
 
