@@ -36,6 +36,10 @@ L’échelle pour noter chaque TP.
 
 - 50% qualité du code (voir standards).
 - 50% qualité des résultats (graphiques et réponses aux questions).
+- quelques codes et graphiques mais pas correct, -5 to -10.
+- code ou graphique manquant, -10 to -20.
+- code et graphique manquant, -20 to -40.
+
 
 Standards dans la rédaction de code R et python
 - R [[https://docs.google.com/document/d/1Mw5Nk9UHEoF_c1b5JqDCdeXP5pX1HPCQ8HSGCsVSw7M][Standards dans la rédaction de code R / R General Usage Rubric]]
