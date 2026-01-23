@@ -1,6 +1,6 @@
 Le but de ce TP est d’apprendre comment faire la validation croisée en parallèle sur une grappe de calcul.
 
-Lire le blog « [Comparing neural network architectures using mlr3torch](https://tdhock.github.io/blog/2025/mlr3torch-conv/) »pour comprendre mlr3torch.
+Lire le blog « [Comparing neural network architectures using mlr3torch](https://tdhock.github.io/blog/2025/mlr3torch-conv/) » pour comprendre mlr3torch.
 
 Téléchargez [`MNIST_FashionMNIST.csv`](https://rcdata.nau.edu/genomic-ml/cv-same-other-paper/data_Classif/MNIST_FashionMNIST.csv) qui contient deux jeux de données.
 Ce sont deux jeux de données de classification d’image, à 10 classes, et à 70 000 lignes chacun.
