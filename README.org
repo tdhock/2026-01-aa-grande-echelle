@@ -51,10 +51,6 @@ Standards dans la rédaction de code R et python
 
 ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
 
-** Apprentissage de programmation
-
-Lire les [[file:références.org][références]].
-
 ** Calendrier
 
 - 5 jan, semaine 1
@@ -70,7 +66,7 @@ Lire les [[file:références.org][références]].
   - bases de R / mlr3
   - Diapos [[https://docs.google.com/presentation/d/1vcWlm6QemPCUtlnw1O0xk3b7jutsHOCn0kqjtDMKbS8/edit?usp=sharing][Validation croisée dans R avec mlr3]]
   - Diapos [[https://docs.google.com/presentation/d/1ebLJxY57OdFm7v_G6feoVFypwBe1PiG6Mf7v7UL6WCw/edit?usp=sharing][data.table pour la traitement efficace des grands jeux de données]]
-  - Chapitre [[https://131-merge--animint-manual-fr.netlify.app/ch20/ch20-viz][Apprentissage artificiel avec mlr3]] — traduction en cours, corrections bienvenues !
+  - Chapitre [[https://131-merge--animint-manual-fr.netlify.app/ch20/ch20-viz][Apprentissage artificiel avec mlr3]] — traduction en cours, corrections bienvenues ! [[https://github.com/animint/animint-manual-fr/blob/ch20fr/Chapitres/Ch20/Ch20_source.qmd][source]]
 - 26 jan, semaine 4
   - apprentissage en parallèle sur grappe de calcul (R)
   - Diapos [[https://docs.google.com/presentation/d/1qTtOtOU_l9sxcAsFHqvPLOaLrNlnMv_gIfYmj8lv4Ko/edit?usp=sharing][Validation croisée dans R en parallèle sur une grappe de calcul]]
@@ -112,3 +108,8 @@ Lire les [[file:références.org][références]].
   - révision
 - 15 déc, semaine 17
   - examen
+
+** Apprentissage de programmation
+
+Lire les [[file:références.org][références]].
+
