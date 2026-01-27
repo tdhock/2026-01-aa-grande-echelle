@@ -91,6 +91,7 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
 - 16 mar, semaine 11
   - Programmation python, doc strings, site web de documentation,
     tests, PyPI, intégration de code C++, API C pour tableaux numpy
+  - [[https://github.com/tdhock/when-c/blob/master/example-R-python.org#other-examples][Exemples des codes C/C++ avec interfaces R et Python]]
 - 23 mar, semaine 12
   - Programmation R, créer paquetage R avec documentation, tests,
     vignettes, C++ code, etc.
