@@ -24,7 +24,6 @@ Utlilsez les mêmes 3 algorithmes d’apprentissage que dans le TP1.
 
 * [LogisticRegressionCV](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegressionCV.html)
 * `GridSearchCV(cv=3)` avec `KNeighborsClassifier` pour coder les plus proches voisins, avec nombre de voisins entre 1 et 40. 
-* Utiliser StandardScaler avec les deux, pour normaliser les variables d’entrée.
 * [DummyClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html#sklearn.dummy.DummyClassifier) pour donnée un niveau d’erreur de base.
 
 Lancer les calculs sur la grappe du cours.
