@@ -25,7 +25,7 @@ Je vous approuve [[https://ipa.ift704.calculquebec.cloud/ipa/ui/][ici]].
 | [[file:tps/tp1.md][TP1 : validation croisée dans Python]]  | 16 jan     |
 | [[file:tps/tp2.md][TP2 : validation croisée dans R]]       | 23 jan     |
 | [[file:tps/tp3.md][TP3 : grappe de calcul avec R]]         | 30 jan     |
-| TP4 : grappe de calcul avec Python    | 6 fév      |
+| [[file:tps/tp4.md][TP4 : grappe de calcul avec Python]]    | 6 fév      |
 | TP5 : généralisation, MNIST et KMNIST | 13 fév     |
 | TP6 : généralisation, images          | 20 fév     |
 | TP7 : entraînement sur GPU            | 27 fév     |

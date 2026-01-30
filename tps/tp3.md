@@ -41,7 +41,7 @@ Soumettez un fichier PDF avec vos codes, vos réponses, et vos graphiques.
 
 * +10 si vous dessinez un graphique représentant le temps de calcul de chaque algorithme. Indice : `batchtools::getJobTable()$time.running` est le temps en secondes (pour entraînement et prédiction).
 * +10 si vous rajoutez un autre algorithme d’apprentissage (forêt aléatoire, arbre de décision, boosting, et cætera).
-* +10 si vous dessiner un graphique avec le taux d’erreur pour chaque nombre de voisins, [comme dans le ch20](https://131-merge--animint-manual-fr.netlify.app/ch20/ch20-viz#nearest-neighbors-selection).
+* +10 si vous dessinez un graphique avec le taux d’erreur pour chaque nombre de voisins, [comme dans le ch20](https://131-merge--animint-manual-fr.netlify.app/ch20/ch20-viz#nearest-neighbors-selection).
 * +10 si vous rajoutez `geom_text` avec la moyenne ± écart type, trier Y par moyenne, et un autre `geom_text` avec P d’un T-test pour savoir s’il y a une différence significative entre les algos, comme ça
 
 ![alt](tp1-err-pval.png)
