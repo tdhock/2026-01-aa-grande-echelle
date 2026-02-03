@@ -45,6 +45,7 @@ Comme ça
 
 * pour MNIST, quel algorithme donne les meilleures prédictions ?
 * pour FashionMNIST, quel algorithme donne les meilleures prédictions ?
+* est-ce que les résultats dans python sont cohérénts avec R ?
 
 Soumettez un fichier PDF avec vos codes, vos réponses, et vos graphiques.
 
