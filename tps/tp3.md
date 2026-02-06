@@ -5,7 +5,7 @@ Lire le blog « [Comparing neural network architectures using mlr3torch](https
 Utiliser [ce code R](MNIST_FashionMNIST_small.R) pour
 * Téléchargez [`MNIST_FashionMNIST.csv`](https://rcdata.nau.edu/genomic-ml/cv-same-other-paper/data_Classif/MNIST_FashionMNIST.csv) qui contient deux jeux de données.
 * Ce sont deux jeux de données de classification d’image, à 10 classes, et à 70 000 lignes chacun.
-* sous-échantilloner pour obtenir 700 exemples de chaque classe, dans chacun des deux jeux de données.
+* sous-échantilloner pour obtenir 700 exemples de chaque classe (ou moins si votre ordi est trop lent), dans chacun des deux jeux de données.
 * Créer une liste de deux `Task`s (MNIST et FashionMNIST).
 
 Utilisez `mlr3::rsmp("cv")` pour validation croisée à 10 divisions. (ou 5 si vous voulez que ça roule plus vite)
@@ -33,11 +33,6 @@ Comme ça
 
 * pour MNIST, quel algorithme donne les meilleures prédictions ?
 * pour FashionMNIST, quel algorithme donne les meilleures prédictions ?
-* Combien de tâches avez-vous calculé en parallèle sur la grappe ?
-* Ça a pris combien de temps entre le lancement et la récuperation de résultats ?
-* Combien de CPUs avez-vous sur votre ordinateur ?
-* Si vous faites les mêmes calculs sur votre ordinateur, combien de temps estimez-vous que ça prend ?
-* D’après ces différences en temps de calcul, la grappe est combien de fois plus vite que votre ordinateur ?
 
 Soumettez un fichier PDF avec vos codes, vos réponses, et vos graphiques.
 
@@ -46,6 +41,12 @@ Soumettez un fichier PDF avec vos codes, vos réponses, et vos graphiques.
 
 ## extra points
 
+* +10 si vous faites les calculs sur la grappe,
+  * Combien de tâches avez-vous calculé en parallèle sur la grappe ?
+  * Ça a pris combien de temps entre le lancement et la récuperation de résultats ?
+  * Combien de CPUs avez-vous sur votre ordinateur ?
+  * Si vous faites les mêmes calculs sur votre ordinateur, combien de temps estimez-vous que ça prend ?
+  * D’après ces différences en temps de calcul, la grappe est combien de fois plus vite que votre ordinateur ?
 * +10 si vous dessinez un graphique représentant le temps de calcul de chaque algorithme. Indice : `batchtools::getJobTable()$time.running` est le temps en secondes (pour entraînement et prédiction).
 * +10 si vous rajoutez un autre algorithme d’apprentissage (forêt aléatoire, arbre de décision, boosting, et cætera).
 * +10 si vous dessinez un graphique avec le taux d’erreur pour chaque nombre de voisins, [comme dans le ch20](https://131-merge--animint-manual-fr.netlify.app/ch20/ch20-viz#nearest-neighbors-selection).
