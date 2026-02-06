@@ -19,6 +19,11 @@ Plan de cours : [[file:HOCKING_plan_de_cours_H2026.pdf]], [[https://usherbrooke-
 À partir du TP3, on va travailler sur une grappe de calcul, « super-computer cluster ».
 [[https://mokey.ift704.calculquebec.cloud/auth/signup][Inscrivez-vous ici]].
 Je vous approuve [[https://ipa.ift704.calculquebec.cloud/ipa/ui/][ici]].
+- j’ai demandé 100-1000 CPUs
+- on m’a donné 360 CPUs
+- lundi le 2 fév on l’a réduit à 90 CPUs.
+- mardi le 3 fév on m’a dit que les étudiants devraient utiliser 1–4 CPUs
+- je vous donne donc le choix de faire soit sur la grappe, soit sur votre ordi personnel (en parallèle).
 
 | Sujet                                 | À remettre |
 |---------------------------------------+------------|
@@ -27,8 +32,8 @@ Je vous approuve [[https://ipa.ift704.calculquebec.cloud/ipa/ui/][ici]].
 | [[file:tps/tp3.md][TP3 : grappe de calcul avec R]]         | 6 fév      |
 | [[file:tps/tp4.md][TP4 : grappe de calcul avec Python]]    | 13 fév     |
 | TP5 : généralisation, MNIST et KMNIST | annulé     |
-| TP6 : généralisation, images          | 27 fév     |
-| TP7 : entraînement sur GPU            |            |
+| TP6 : généralisation, images          | 20 fév     |
+| TP7 : entraînement sur GPU            | 27 fév     |
 | TP8 : création d’un package python    |            |
 | TP9 : création d’un package R         |            |
 
