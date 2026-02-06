@@ -45,6 +45,12 @@ Comme ça
 
 * pour MNIST, quel algorithme donne les meilleures prédictions ?
 * pour FashionMNIST, quel algorithme donne les meilleures prédictions ?
+* est-ce que les résultats dans python sont cohérénts avec R ?
+* Combien de tâches avez-vous calculé en parallèle sur la grappe ?
+* Ça a pris combien de temps entre le lancement et la récuperation de résultats ?
+* Combien de CPUs avez-vous sur votre ordinateur ?
+* Si vous faites les mêmes calculs sur votre ordinateur, combien de temps estimez-vous que ça prend ?
+* D’après ces différences en temps de calcul, la grappe est combien de fois plus vite que votre ordinateur ?
 
 Soumettez un fichier PDF avec vos codes, vos réponses, et vos graphiques.
 
