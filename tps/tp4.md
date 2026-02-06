@@ -1,20 +1,34 @@
-Le but de ce TP est de faire la validation croisée en parallèle sur une grappe de calcul en python.
+Le but de ce TP est de faire la validation croisée en parallèle (eventuellement sur une grappe de calcul) en python.
 
 Téléchargez [`MNIST_FashionMNIST.csv`](https://rcdata.nau.edu/genomic-ml/cv-same-other-paper/data_Classif/MNIST_FashionMNIST.csv) qui contient deux jeux de données.
 Ce sont deux jeux de données de classification d’image, à 10 classes, et à 70 000 lignes chacun.
+* sous-échantilloner comme avec TP3 avec [ce code R](MNIST_FashionMNIST_small.R).
 
 Écrire 4 fichiers python
 
 * `combinaisons.py` 
-  * définir les jeux de données dans une dictionnaire, `dict_données`.
   * définir les algos d’apprentissage dans une dictionnaire, `dict_algos`.
-  * dans `if __name__=="__main__"` écrire un fichier `combinaisons.csv` avec une ligne pour chaque combinaison (données, algo, division) que vous voulez calculer en parallèle, et écrire `combinaisons.sh` dans lequel on a `python calculer_une_combinaison.py $SLURM_ARRAY_TASK_ID`.
+  * dans `if __name__=="__main__"` 
+    * préparer les données
+	  * lire `MNIST_FashionMNIST_small.csv` 
+	  * boucle sur les deux sous-ensembles, MNIST et Fashion.
+	  * rajouter une colonne `fold` pour la validation croisée.
+	  * écrire `MNIST.csv` et `FashionMNIST.csv`.
+    * définir les combinaisons dans un dictionnaire, `comb_dict`, avec clés `données`, `division`, `algorithme`.
+    * écrire un fichier `combinaisons.csv` avec une ligne pour chaque combinaison (données, algo, division) que vous voulez calculer en parallèle (`n_tasks` est le nomble de lignes).
+	* écrire `combinaisons.sh` dans lequel on a `python calculer_une_combinaison.py $SLURM_ARRAY_TASK_ID`.
+	* écrire `calculer_tout.sh` dans lequel on a les commandes python pour GNU parallel. 
 * `calculer_une_combinaison.py` 
-  * `from combinaisons import dict_données, dict_algos`
-  * unpack `sys.argv` pour obtenir la valeur de `SLURM_ARRAY_TASK_ID`.
-  * lire la ligne numero `SLURM_ARRAY_TASK_ID` dans `combinaisons.csv`.
-  * fait l’apprentissage et la prédiction pour la combinaison correspondant.
-  * écrire une ligne de résultats dans un fichier csv (taux d’erreur pour l’ensemble test).
+  * `from combinaisons import dict_algos`
+  * `def calculer_une(tâche)` 
+    * l’entrée `tâche` est un entier entre 0 et `n_tasks-1`
+    * lire la ligne `tâche` dans `combinaisons.csv`.
+    * faire l’apprentissage et la prédiction pour la combinaison correspondant.
+	* écrire l’erreur sur l’ensemble test dans un fichier `tâche+".csv"` 
+  * dans `if __name__=="__main__"` 
+    * unpack `sys.argv` pour obtenir la valeur de `SLURM_ARRAY_TASK_ID`, le numéro de tâche.
+	* appeler `calculer_une(tâche)`
+* `calculer_tout.py` fait les calculs en parallèle avec `multiprocessing`.
 * `résultats.py` lit les différents fichiers de résultats (chacun avec une ligne), et écrit un seul fichier `résultats.csv` (avec plusieurs lignes).
 * `figure.py` lit le fichier `résultats.csv` et écrit fichiers PNG (sorties graphiques).
 

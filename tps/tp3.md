@@ -41,7 +41,8 @@ Soumettez un fichier PDF avec vos codes, vos réponses, et vos graphiques.
 
 ## extra points
 
-* +10 si vous faites les calculs sur la grappe,
+* +10 si vous faites les calculs sur la grappe.
+  * faire `store_models=FALSE` pour limiter la mémoire vive qu’il vous faut.
   * Combien de tâches avez-vous calculé en parallèle sur la grappe ?
   * Ça a pris combien de temps entre le lancement et la récuperation de résultats ?
   * Combien de CPUs avez-vous sur votre ordinateur ?

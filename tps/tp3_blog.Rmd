@@ -50,6 +50,7 @@ We begin by reading the MNIST data,
 
 ```{r}
 library(data.table)
+smallfash <- fread("MNIST_FashionMNIST_small.csv")
 MNIST_dt <- fread("~/projects/cv-same-other-paper/data_Classif/MNIST.csv")
 dim(MNIST_dt)
 data.table(
@@ -61,6 +62,17 @@ data.table(
 We then create a `label` factor column, and a task:
 
 ```{r}
+smallfash[, label := factor(y)]
+task.list <- list()
+for(dname in unique(smallfash$data.name)){
+  mtask <- mlr3::TaskClassif$new(
+    dname, smallfash[data.name==dname], target="label")
+  mtask$col_roles$stratum <- "label"
+  mtask$col_roles$feature <- grep("^[0-9]+$", names(smallfash), value=TRUE)
+  task.list[[dname]] <- mtask
+}
+task.list
+
 MNIST_dt[, label := factor(y)]
 mtask <- mlr3::TaskClassif$new(
   "MNIST", MNIST_dt, target="label")
@@ -81,7 +93,7 @@ hidden layers/units).
 
 ```{r}
 measure_list <- mlr3::msrs(c("classif.logloss", "classif.ce"))
-n.epochs <- 200
+n.epochs <- 2
 make_torch_learner <- function(id,...){
   po_list <- c(
     list(
@@ -135,7 +147,7 @@ The function above has a variable number of inputs:
 The code below defines a list of learners:
 
 ```{r}
-n.pixels <- 28
+n.pixels <- 28 # width et height de chaque image
 learner.list <- list(
   make_torch_learner("torch_linear"),
   make_torch_learner(
@@ -191,7 +203,7 @@ The code below combines the task, learners, and a resampling method
 kfoldcv <- mlr3::rsmp("cv")
 kfoldcv$param_set$values$folds <- 3
 (bench.grid <- mlr3::benchmark_grid(
-  mtask,
+  task.list,
   learner.list,
   kfoldcv))
 ```
