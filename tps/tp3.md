@@ -1,12 +1,14 @@
 Le but de ce TP est d’apprendre comment faire la validation croisée en parallèle sur une grappe de calcul.
 
-Lire le blog « [Comparing neural network architectures using mlr3torch](https://tdhock.github.io/blog/2025/mlr3torch-conv/) » pour comprendre mlr3torch.
+Lire le blog « [Comparing neural network architectures using mlr3torch](https://tdhock.github.io/blog/2025/mlr3torch-conv/) » et [son fichier source Rmd](tp3_blog.Rmd) pour comprendre mlr3torch.
 
-Téléchargez [`MNIST_FashionMNIST.csv`](https://rcdata.nau.edu/genomic-ml/cv-same-other-paper/data_Classif/MNIST_FashionMNIST.csv) qui contient deux jeux de données.
-Ce sont deux jeux de données de classification d’image, à 10 classes, et à 70 000 lignes chacun.
-Créer une liste de deux `Task`s.
+Utiliser [ce code R](MNIST_FashionMNIST_small.R) pour
+* Téléchargez [`MNIST_FashionMNIST.csv`](https://rcdata.nau.edu/genomic-ml/cv-same-other-paper/data_Classif/MNIST_FashionMNIST.csv) qui contient deux jeux de données.
+* Ce sont deux jeux de données de classification d’image, à 10 classes, et à 70 000 lignes chacun.
+* sous-échantilloner pour obtenir 700 exemples de chaque classe, dans chacun des deux jeux de données.
+* Créer une liste de deux `Task`s (MNIST et FashionMNIST).
 
-Utilisez `mlr3::rsmp("cv")` pour validation croisée à 10 divisions.
+Utilisez `mlr3::rsmp("cv")` pour validation croisée à 10 divisions. (ou 5 si vous voulez que ça roule plus vite)
 
 Créer une liste de 6 algorithmes d’apprentissage :
 
