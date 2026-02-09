@@ -4,7 +4,15 @@ Téléchargez [`MNIST_FashionMNIST.csv`](https://rcdata.nau.edu/genomic-ml/cv-sa
 Ce sont deux jeux de données de classification d’image, à 10 classes, et à 70 000 lignes chacun.
 * sous-échantilloner comme avec TP3 avec [ce code R](MNIST_FashionMNIST_small.R).
 
-Écrire 4 fichiers python
+Utilisez la validation croisée à 10 divisions (faire la division vous-même, sans utilser sklearn).
+
+Utlilsez les mêmes 3 algorithmes d’apprentissage que dans le TP1.
+
+* [LogisticRegressionCV](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegressionCV.html)
+* `GridSearchCV(cv=3)` avec `KNeighborsClassifier` pour coder les plus proches voisins, avec nombre de voisins entre 1 et 40.
+* [DummyClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html#sklearn.dummy.DummyClassifier) pour donnée un niveau d’erreur de base.
+
+Écrire 4 fichiers python pour la validation croisée en parallèle.
 
 * `combinaisons.py` 
   * définir les algos d’apprentissage dans une dictionnaire, `dict_algos`.
@@ -12,7 +20,7 @@ Ce sont deux jeux de données de classification d’image, à 10 classes, et à 
     * préparer les données
 	  * lire `MNIST_FashionMNIST_small.csv` 
 	  * boucle sur les deux sous-ensembles, MNIST et Fashion.
-	  * rajouter une colonne `fold` pour la validation croisée.
+	  * rajouter une colonne `fold` pour la validation croisée, avec `np.arange()` et `np.tile()`.
 	  * écrire `MNIST.csv` et `FashionMNIST.csv`.
     * définir les combinaisons dans un dictionnaire, `comb_dict`, avec clés `données`, `division`, `algorithme`.
     * écrire un fichier `combinaisons.csv` avec une ligne pour chaque combinaison (données, algo, division) que vous voulez calculer en parallèle (`n_tasks` est le nomble de lignes).
@@ -32,15 +40,7 @@ Ce sont deux jeux de données de classification d’image, à 10 classes, et à 
 * `résultats.py` lit les différents fichiers de résultats (chacun avec une ligne), et écrit un seul fichier `résultats.csv` (avec plusieurs lignes).
 * `figure.py` lit le fichier `résultats.csv` et écrit fichiers PNG (sorties graphiques).
 
-Utilisez la validation croisée à 10 divisions (faire la division vous-même, sans utilser sklearn).
-
-Utlilsez les mêmes 3 algorithmes d’apprentissage que dans le TP1.
-
-* [LogisticRegressionCV](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegressionCV.html)
-* `GridSearchCV(cv=3)` avec `KNeighborsClassifier` pour coder les plus proches voisins, avec nombre de voisins entre 1 et 40. 
-* [DummyClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html#sklearn.dummy.DummyClassifier) pour donnée un niveau d’erreur de base.
-
-Lancer les calculs sur la grappe du cours.
+Lancer les calculs sur la grappe (SLURM), ou sur votre ordinateur personnel (GNU parallèle ou Python multiprocessing).
 
 Utilisez plotnine pour dessiner les résultats.
 
