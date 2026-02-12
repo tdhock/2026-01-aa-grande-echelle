@@ -23,6 +23,7 @@ Je vous approuve [[https://ipa.ift704.calculquebec.cloud/ipa/ui/][ici]].
 - on m’a donné 360 CPUs
 - lundi le 2 fév on l’a réduit à 90 CPUs.
 - mardi le 3 fév on m’a dit que les étudiants devraient utiliser 1–4 CPUs
+- lundi le 9 fév on n’a que 10 CPUs.
 - je vous donne donc le choix de faire soit sur la grappe, soit sur votre ordi personnel (en parallèle).
 
 | Sujet                                 | À remettre |
