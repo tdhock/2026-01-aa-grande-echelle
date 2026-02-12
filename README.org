@@ -87,7 +87,7 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
   - Diapos [[https://docs.google.com/presentation/d/1TR2899XuLAyTk4WJDe7IXa9wgYzQta43Wnz7WQptFGI/edit?usp=sharing][Entraînement sur GPU]]
 - 23 fév, semaine 8
   - révision
-  - examen intra : le mercredi 25 février 2026, 08h30 - 10h20.
+  - examen intra : le mercredi 25 février 2026, 08h30 - 10h20 (D3-2029).
 - 2 mar, semaine 9
   - pas de cours (relâche)
 - 9 mar, semaine 10
