@@ -33,7 +33,7 @@ Utiliser soit du code R, soit du code python.
 ## Code R
 
 Comme dans les TP2 et 3, on peut utiliser mlr3.
-Utilser `mlr3resampling::ResamplingSameOtherSizesCV` avec `mlr3::benchmark()`.
+Utilser `mlr3resampling::ResamplingSameOtherSizesCV` avec `mlr3::benchmark()` et `mlr3learners::LearnerClassifCVGlmnet`.
 
 ## Code Python
 
