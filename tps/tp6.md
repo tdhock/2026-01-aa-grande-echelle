@@ -13,7 +13,7 @@ Vous allez
 
 # Données et objectif
 
-Téléchargez les deux jeux de données dans [tp5-data](tp5-data).
+Téléchargez les deux jeux de données dans [tp6-data](tp6-data).
 Chaque fichier répresente un jeux de données avec 600 lignes, dont 300 de sous-ensemble A, et 300 de sous-ensemble B (indiqué dans la première colonne, `subset`).
 
 Ce sont des sous-échantillons des véritables données `waveform` et `vowel`, et
