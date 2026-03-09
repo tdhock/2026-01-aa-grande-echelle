@@ -35,8 +35,9 @@ Je vous approuve [[https://ipa.ift704.calculquebec.cloud/ipa/ui/][ici]].
 | TP5 : généralisation, MNIST          | annulé     |
 | [[file:tps/tp6.md][TP6 : généralisation, A et B]]         | 20 fév     |
 | [[file:tps/tp7.md][TP7 : entraînement sur GPU]]           | 27 fév     |
-| TP8 : création d’un package python   |            |
-| TP9 : création d’un package R        |            |
+| TP8 : création d’un package python   | 27 mars    |
+| TP9 : création d’un package R        | 10 avril   |
+| TP10 : contribution sur GitHub       | 24 avril   |
 
 L’échelle pour noter chaque TP.
 
@@ -118,9 +119,9 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
   - pas de cours le lundi 6 avril (pâques)
 - 13 avr, semaine 15
   - dernière semaine d’instruction
-- 8 déc, semaine 16
+- 20 avr, semaine 16
   - révision
-- 15 déc, semaine 17
+- 27 avr, semaine 17
   - examen
 
 ** Apprentissage de programmation
