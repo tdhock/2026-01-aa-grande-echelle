@@ -100,6 +100,8 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
   - [[https://github.com/tdhock/when-c/blob/master/example-R-python.org#other-examples][Exemples des codes C/C++ avec interfaces R et Python]]
   - [[https://packaging.python.org/en/latest/][PPUG]] - distribution
   - [[https://py-pkgs.org/01-introduction][pypkgs]] - [[https://www.sphinx-doc.org/en/master/index.html][sphinx]]
+  - [[https://pybind11.readthedocs.io/en/stable/][pybind11]], [[https://github.com/RUrlus/carma][carma]]
+  - [[https://github.com/RcppCore/RcppArmadillo][RcppArmadillo]]
   - [[https://www.mkdocs.org/][mkdocs]]
 - 23 mar, semaine 12
   - Programmation R, créer paquetage R avec documentation, tests,
