@@ -1,6 +1,7 @@
 Le but de ce TP est d’explorer les GPUs pour l’entraînement d’un réseau de neurones.
 
 Sur [Travailler avec un GPU](https://docs.alliancecan.ca/wiki/PyTorch/fr#Travailler_avec_un_GPU) il y a un code pour l’entraînement avec GPU.
+Copier et modifier ce code.
 
 * Utiliser `nn.Sequential()` dans `forward()`.
 * Supprimer `.cuda()` et utiliser `.to(device)`.
