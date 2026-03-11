@@ -51,3 +51,14 @@ Guides to writing an R package with C/C++ code.
 
 TODO
 
+*** Python en anglais
+
+- [[https://packaging.python.org/en/latest/][PPUG]] - distribution
+- [[https://github.com/RcppCore/RcppArmadillo][RcppArmadillo]]
+- [[https://www.mkdocs.org/][mkdocs]]
+- [[https://github.com/tdhock/when-c/blob/master/example-R-python.org#other-examples][Mes exemples C/C++ avec interfaces R et Python]]
+- C++
+  - [[https://pybind11.readthedocs.io/en/stable/][pybind11]]
+  - [[https://github.com/RUrlus/carma][carma]]
+  
+
