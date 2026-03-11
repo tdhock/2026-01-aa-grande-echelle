@@ -102,9 +102,7 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
   - Diapos [[https://docs.google.com/presentation/d/1gt9H9uRcep5-O6M9Mkkv2jjouK9jEHBWAWjXflyuJ6c/edit?usp=sharing][Créer un package Python]]
   - Tutoriel en anglais : [[https://py-pkgs.org/01-introduction][pypkgs]]
   - Docs : [[https://www.sphinx-doc.org/en/master/index.html][sphinx]]
-  - C++
-    - [[https://pybind11.readthedocs.io/en/stable/][pybind11]]
-    - [[https://github.com/RUrlus/carma][carma]]
+  - Tableau numpy dans C++ [[https://pybind11.readthedocs.io/en/stable/advanced/pycpp/numpy.html#vectorizing-functions][exemple]]
 - 23 mar, semaine 12
   - Programmation R, créer paquetage R avec documentation, tests,
     vignettes, C++ code, etc.
