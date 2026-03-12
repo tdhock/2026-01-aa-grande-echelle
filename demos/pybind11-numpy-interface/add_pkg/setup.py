@@ -5,7 +5,7 @@ from setuptools import setup
 ext_modules = [
     Pybind11Extension(
         "add_module",
-        ["src/interface.cpp"]
+        ["src/interface.cpp","src/add.cpp"]
     ),
 ]
 

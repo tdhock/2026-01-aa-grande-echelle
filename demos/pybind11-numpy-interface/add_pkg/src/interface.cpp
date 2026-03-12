@@ -1,5 +1,6 @@
 #include <pybind11/pybind11.h>
 #include <pybind11/numpy.h>
+#include "add.h"
 namespace py = pybind11;
 py::array_t<double> add_arrays(py::array_t<double> input1, py::array_t<double> input2) {
     py::buffer_info buf1 = input1.request(), buf2 = input2.request();
@@ -12,8 +13,7 @@ py::array_t<double> add_arrays(py::array_t<double> input1, py::array_t<double> i
     double *ptr1 = static_cast<double *>(buf1.ptr);
     double *ptr2 = static_cast<double *>(buf2.ptr);
     double *ptr3 = static_cast<double *>(buf3.ptr);
-    for (int idx = 0; idx < buf1.shape[0]; idx++)
-        ptr3[idx] = ptr1[idx] + ptr2[idx];
+    add_pointers(ptr1, ptr2, buf1.size, ptr3);
     return result;
 }
 PYBIND11_MODULE(add_module, m, py::mod_gil_not_used()) {
