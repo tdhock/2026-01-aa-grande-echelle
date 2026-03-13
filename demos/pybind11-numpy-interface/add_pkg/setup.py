@@ -1,5 +1,5 @@
 from pybind11.setup_helpers import Pybind11Extension, build_ext
-from setuptools import setup
+from setuptools import setup, find_packages
 
 ext_modules = [
     Pybind11Extension(
@@ -10,6 +10,7 @@ ext_modules = [
 
 setup(
     name="add_module",
+    packages = find_packages(),
     author="Toby Hocking",
     author_email="toby.hocking@r-project.org",
     url="https://github.com/tdhock/2026-01-aa-grande-echelle/demos/pybind11-numpy-interface",
