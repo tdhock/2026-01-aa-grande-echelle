@@ -1,5 +1,6 @@
 pybind11
 *so
+*egg-info
 .Rhistory
 *__
 *#
