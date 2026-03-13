@@ -1,16 +1,15 @@
 from pybind11.setup_helpers import Pybind11Extension, build_ext
-from setuptools import setup, find_packages
+from setuptools import setup
 
 ext_modules = [
     Pybind11Extension(
-        "add_module",
+        "add_ext_module",
         ["src/interface.cpp","src/add.cpp"]
     ),
 ]
 
 setup(
-    name="add_module",
-    packages = find_packages(),
+    name="add_dpkg_interface",
     author="Toby Hocking",
     author_email="toby.hocking@r-project.org",
     url="https://github.com/tdhock/2026-01-aa-grande-echelle/demos/pybind11-numpy-interface",

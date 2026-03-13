@@ -18,6 +18,6 @@ py::array_t<double> add_arrays(py::array_t<double> input1, py::array_t<double> i
       throw std::runtime_error("No data");
     return result;
 }
-PYBIND11_MODULE(add_module, m, py::mod_gil_not_used()) {
+PYBIND11_MODULE(add_ext_module, m, py::mod_gil_not_used()) {
     m.def("add_arrays", &add_arrays, "Add two NumPy arrays");
 }

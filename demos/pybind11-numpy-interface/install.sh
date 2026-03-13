@@ -1,1 +1,1 @@
-pip install ./add_pkg
+pip install ./interface-proj
