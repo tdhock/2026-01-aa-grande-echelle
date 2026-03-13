@@ -1,1 +1,1 @@
-pip install ./add_proj_dir
+pip install -v ./add_proj_dir

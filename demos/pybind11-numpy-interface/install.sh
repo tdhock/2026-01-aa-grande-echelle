@@ -1,1 +1,1 @@
-pip install ./interface-proj
+pip install -v ./interface-proj
