@@ -35,7 +35,7 @@ Je vous approuve [[https://ipa.ift704.calculquebec.cloud/ipa/ui/][ici]].
 | TP5 : généralisation, MNIST          | annulé     |
 | [[file:tps/tp6.md][TP6 : généralisation, A et B]]         | 20 fév     |
 | [[file:tps/tp7.md][TP7 : entraînement sur GPU]]           | 27 fév     |
-| TP8 : création d’un package python   | 27 mars    |
+| [[file:tps/tp8.md][TP8 : création d’un package python]]   | 27 mars    |
 | TP9 : création d’un package R        | 10 avril   |
 | TP10 : contribution sur GitHub       | 24 avril   |
 
