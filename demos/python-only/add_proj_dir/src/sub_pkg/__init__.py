@@ -1,4 +1,4 @@
 AUTHOR = "TDH"
-def add(x,y):
+def sub(x,y):
     "Soustraire deux nombres."
     return x-y
