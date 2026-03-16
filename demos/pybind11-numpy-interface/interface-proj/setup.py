@@ -15,6 +15,8 @@ setup(
     url="https://github.com/tdhock/2026-01-aa-grande-echelle/demos/pybind11-numpy-interface",
     description="A test project using pybind11",
     ext_modules=ext_modules,
+    package_dir={"":"src"},
+    packages=["mypkg"],
     cmdclass={"build_ext": build_ext},
     zip_safe=False,
     python_requires=">=3.9",
