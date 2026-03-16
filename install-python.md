@@ -14,7 +14,7 @@ Téléchargez et installez GNU Emacs.
 - [La page PythonProgrammingInEmacs sur l'EmacsWiki contient des instructions pour configurer d'autres EDI Python pour Emacs](https://www.emacswiki.org/emacs/PythonProgrammingInEmacs).
 - Si vous souhaitez coder dans un autre logiciel qu'Emacs, vous devez me montrer que vous pouvez exécuter du code Python de manière interactive. Cela signifie avoir une fenêtre avec le code Python, une autre fenêtre avec la console Python, et pouvoir utiliser une commande clavier pour exécuter une ou plusieurs lignes de code à la fois (dans une boucle ou fonction éventuellement), et voir immédiatement le résultat dans la console.
 
-** Instructions pour conda
+## Instructions pour conda
 
 Après avoir [téléchargé conda](https://docs.conda.io/en/latest/miniconda.html) et avant d'activer un environnement, vous devez configurer votre shell pour la première fois.
 
@@ -47,7 +47,7 @@ Cela devrait créer et activer un nouvel environnement conda avec la version Pyt
 
 Une fois activé, cet environnement sera utilisé pour les nouveaux processus Python, la recherche de modules Python, etc.
 
-** Prise en charge de Python dans Emacs
+## Prise en charge de Python dans Emacs
 
 Tout d'abord, si vous utilisez Emacs pour la première fois, veuillez taper `C-h t` (tapez h en maintenant la touche Ctrl enfoncée, puis relâchez-la et tapez t) pour ouvrir le tutoriel Emacs. Lisez l'intégralité du tutoriel et faites tous les exercices, qui vous apprendront les raccourcis clavier les plus importants pour naviguer et modifier le code. Répétez le tutoriel chaque jour jusqu'à ce que vous ayez mémorisé tous les raccourcis clavier.
 
