@@ -1,0 +1,3 @@
+useDynLib(Rcpp.add)
+importFrom(Rcpp, evalCpp)
+export(add_interface)
