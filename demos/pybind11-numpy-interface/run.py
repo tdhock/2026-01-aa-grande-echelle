@@ -6,3 +6,6 @@ add_ext_module.add_arrays(x,y)
 z=np.arange(0)
 add_ext_module.add_arrays(z,z)
 
+import mypkg
+mypkg
+mypkg.ME
