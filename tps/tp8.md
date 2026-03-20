@@ -6,7 +6,9 @@ Votre package doit contenir
 
 * `setup.py`
 * `pypackage.toml`
-* `tests/test_cum_médiane.py`
+* `tests/test_cum_médiane.py` avec au moins ces tests
+  * erreur quand il y a des données répétées.
+  * la bonne sortie pour les 5 données sur [la diapo](https://docs.google.com/presentation/d/1gt9H9uRcep5-O6M9Mkkv2jjouK9jEHBWAWjXflyuJ6c?slide=id.g3cf2ddf2dd3_0_59#slide=id.g3cf2ddf2dd3_0_59).
 * `src/interface.cpp`
   * fonction `cum_médiane(numpy_array_de_doubles)` qui converti le tableau numpy en pointeur, utiliser pour appeller `cum_médiane()`.
 * `src/cum_médiane.cpp`
@@ -15,7 +17,7 @@ Votre package doit contenir
 ```c++
 #define SUCCESS 0
 #define ERROR_DONNÉES_RÉPÉTÉES 1
-int cum_médiane(double* données_ptr, int taille);
+int cum_médiane(const double* données_ptr, const int taille, double* sortie_ptr);
 ```
 
 # PDF à soumettre
