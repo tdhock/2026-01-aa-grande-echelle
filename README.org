@@ -125,5 +125,5 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
 
 ** Apprentissage de programmation
 
-Lire les [[file:références.org][références]].
+Lire les [[file:references.org][références]]
 
