@@ -46,6 +46,7 @@ Guides to writing an R package with C/C++ code.
 - [[https://github.com/tdhock/when-c][When and how to write low-level (C/C++) instead of high-level (R/Python) code?]]
 - [[https://www.youtube.com/playlist?list=PLwc48KSH3D1OkObQ22NHbFwEzof2CguJJ][Make an R package with C++ code]], my tutorial screencast videos.
 - [[https://bookdown.dongzhuoer.com/hadley/r-pkgs/src][R packages]] book first edition by Wickham.
+- https://github.com/tdhock/2023-08-unsupervised-learning/blob/main/homeworks/Rpkg.org
 
 *** Python en français
 
