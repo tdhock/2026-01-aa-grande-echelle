@@ -1,0 +1,5 @@
+-*- mode: compilation -*-
+  src/add.cpp:8:31: error: invalid operands of types ‘const double’ and ‘const double*’ to binary ‘operator+’
+src/add.cpp:8:31: error: invalid operands of types ‘const double’ and ‘const double*’ to binary ‘operator+’
+interface-proj/src/add.cpp:8:31: error: invalid operands of types ‘const double’ and ‘const double*’ to binary ‘operator+’
+ src/add.cpp:8:31: error: invalid operands of types ‘const double’ and ‘const double*’ to binary ‘operator+’
