@@ -81,6 +81,6 @@ Soumettez votre rapport en fichier PDF (en français ou anglais) avec
 * +10 si vous faites un site web de documentation sur netlify. 
   * Écrire docstrings comme dans [`python_example`](https://github.com/pybind/python_example).
   * Suivre [ce tutoriel](https://py-pkgs.org/03-how-to-package-a-python#hosting-documentation-online) pour mettre en place vos docs sur readthedocs.
-* +10 si vous faites un GitHub Action pour calculer Couverture des tests, avec résultats accessible sur Codecov.
+* +10 si vous faites un GitHub Action pour calculer Couverture des tests, avec résultats accessibles sur Codecov.
   * Pour configuration vous pouvez utiliser [ce fichier](https://github.com/tdhock/nc/blob/master/.github/workflows/test-coverage.yaml).
   * Ajouter un lien vers votre Codecov dans votre `README.md`, par ex https://app.codecov.io/gh/tdhock/nc?branch=master
