@@ -4,6 +4,8 @@ Le but de ce TP est de créer un package R avec un nouveau Learner pour mlr3.
 
 # Contenu du package
 
+La documentation du package devrait être en anglais, car nous allons soumettre le Learner ensuite pour inclusion dans `mlr3extralearners`, ce qui est en anglais.
+
 Votre package doit contenir, dans un dépôt sur GitHub,
 
 * `R/Learner.R`, définir nouvelle classe pour votre Learner.
@@ -22,7 +24,8 @@ Votre package doit contenir, dans un dépôt sur GitHub,
   * `Suggests: testthat`
 * `NAMESPACE`: exporter votre Learner.
 * `.github/workflows/check.yaml`: une copie de [ce fichier](https://github.com/NAU-ASD3/nsch/blob/main/.github/workflows/check.yaml) devrait marcher sans modification dans votre projet.
-* `README.md` avec affichage [comme ça](https://github.com/tdhock/slurm/blob/master/README.org), y compris sections
+  * attention à regarder la sortie de `R CMD check` et arranger tous les ERRORS et WARNINGs, voir [Appendix A de R Packages](https://r-pkgs.org/R-CMD-check.html) pour trouver les solutions aux problèmes fréquents.
+* `README.md` avec affichage [comme le README dans slurm](https://github.com/tdhock/slurm/blob/master/README.org) ou [comme le README dans nsch](https://github.com/NAU-ASD3/nsch/blob/main/README.md), y compris sections
   * installation
   * utilisation (Usage)
   * Related work avec liens
@@ -63,7 +66,7 @@ Comme ça
 
 # PDF à soumettre
 
-Soumettez un fichier PDF avec 
+Soumettez votre rapport en fichier PDF (en français ou anglais) avec 
 
 * un lien vers votre package dans un dépôt public sur GitHub,
 * vos codes pour la démo/benchmark,
