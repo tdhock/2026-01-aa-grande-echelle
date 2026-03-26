@@ -72,7 +72,7 @@ Soumettez votre rapport en fichier PDF (en français ou anglais) avec
 * vos codes pour la démo/benchmark,
 * votre graphique pour l’erreur de prédiction dans la validation croisée.
 * vos réponses aux questions ci-dessus.
-* mettez en gras une section « extra points » si vous tenter les exercises facultatives ci-dessous.
+* mettez en gras une section « extra points » si vous tenter les exercices facultatives ci-dessous.
 * suivez [les standards dans la rédaction de code R](https://docs.google.com/document/d/1Mw5Nk9UHEoF_c1b5JqDCdeXP5pX1HPCQ8HSGCsVSw7M)
 
 # extra points
