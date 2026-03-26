@@ -34,7 +34,7 @@ Votre package doit contenir, dans un dépôt sur GitHub,
 	
 # Démo/Benchmark du package
 
-Faire un démonstration que votre package marche pour l’apprentissage.
+Faire une démonstration que votre package marche pour l’apprentissage.
 Écrire un script R qui utilise votre package dans un `mlr3::benchmark()`.
 
 * Utiliser au moins deux jeux de données (de régression ou classification).
