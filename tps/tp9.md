@@ -79,8 +79,9 @@ Soumettez votre rapport en fichier PDF (en français ou anglais) avec
 
 * +10 si vous faites la démo/benchmark dans `vignettes/benchmark.Rmd`
 * +10 si vous faites un site web de documentation sur netlify. 
-  * Écrire docstrings comme dans [`python_example`](https://github.com/pybind/python_example).
-  * Suivre [ce tutoriel](https://py-pkgs.org/03-how-to-package-a-python#hosting-documentation-online) pour mettre en place vos docs sur readthedocs.
+  * exemple [atime](https://github.com/tdhock/atime), [docs](https://atime-docs.netlify.app/manual#sec:man-atime)
+  * exemple [mlr3resampling](https://github.com/tdhock/mlr3resampling), [docs](https://mlr3resampling.netlify.app/)
+  * [diapos pour configuration de Netlify](https://docs.google.com/presentation/d/1WpRZs9qz9wm1yik_MLj8tIJyWuL5-IBPYKLhOHZ9X4Y/edit?slide=id.g36614b10874_0_61#slide=id.g36614b10874_0_61)
 * +10 si vous faites un GitHub Action pour calculer Couverture des tests, avec résultats accessibles sur Codecov.
   * Pour configuration vous pouvez utiliser [ce fichier](https://github.com/tdhock/nc/blob/master/.github/workflows/test-coverage.yaml).
   * Ajouter un lien vers votre Codecov dans votre `README.md`, par ex https://app.codecov.io/gh/tdhock/nc?branch=master
