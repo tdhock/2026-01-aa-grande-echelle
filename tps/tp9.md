@@ -1,0 +1,83 @@
+Le but de ce TP est de créer un package R avec un nouveau Learner pour mlr3.
+
+[Inscrivez-vous ici](https://github.com/tdhock/2026-01-aa-grande-echelle/wiki/projets) pour que chacun travaille sur un sujet différent.
+
+# Contenu du package
+
+Votre package doit contenir, dans un dépôt sur GitHub,
+
+* `R/Learner.R`, définir nouvelle classe pour votre Learner.
+  * utiliser `other.pkg::other.funs()` pour les fonctions train et predict.
+* `man/Learner.Rd`, documentation pour votre Learner.
+  * exemple avec `train()` et `predict()`.
+  * pour données, utiliser `mlr3::tsk()`.
+* `tests/`
+  * `testthat.R`: `if(require(testthat))test_check("ton.pkg")`
+  * `testthat/test-CRAN.R`
+    * au moins un bloc `test_that()` 
+	* faire train et predict.
+	* utiliser `expect_*()` pour checker que les predictions sont comme attendus.
+* `DESCRIPTION`
+  * `Imports: other.pkg` le package avec les fonctions que vous appelez dans train et predict.
+  * `Suggests: testthat`
+* `NAMESPACE`: exporter votre Learner.
+* `.github/workflows/check.yaml`: une copie de [ce fichier](https://github.com/NAU-ASD3/nsch/blob/main/.github/workflows/check.yaml) devrait marcher sans modification dans votre projet.
+* `README.md` avec affichage [comme ça](https://github.com/tdhock/slurm/blob/master/README.org), y compris sections
+  * installation
+  * utilisation (Usage)
+  * Related work avec liens
+    * vers le wiki du cours, https://github.com/tdhock/2026-01-aa-grande-echelle/wiki/projets
+	* vers l’autre package que vous utilisez pour train et predict.
+	
+# Démo/Benchmark du package
+
+Faire un démonstration que votre package marche pour l’apprentissage.
+Écrire un script R qui utilise votre package dans un `mlr3::benchmark()`.
+
+* Utiliser au moins deux jeux de données (de régression ou classification).
+* Votre benchmark doit comprendre au moins 4 Learners
+  * ton nouveau Learner
+  * featureless (pour démontrer que votre Learner apprend quelque chose de non-triviale)
+  * modèle linéare, `mlr3learners::Learner*CVGlmnet`
+  * plus proche voisins, avec `auto_tuner` pour choisir le meilleur nombre de voisins entre 1 et 30.
+* Validation croisée à 5 blocs.
+* Calculer les taux d’erreur de prédiction dans la validation croisée.
+
+Utilisez `ggplot2` pour dessiner les résultats.
+
+* X = taux d’erreur
+* Y = algorithme
+* un point pour chaque division de validation croisée
+* `facet_grid()` un panneau pour chaque jeu de données
+
+Comme ça 
+
+![alt](tp1-err-dots.png)
+
+![alt](tp1-err-facets.png)
+
+Écrire une réponse à ces questions :
+
+* est-ce que votre algorithme apprend quelque chose de non-triviale dans les deux jeux de données ?
+* est-ce que votre algorithme est aussi bon que le modèle linéaire et les plus proches voisins ?
+
+# PDF à soumettre
+
+Soumettez un fichier PDF avec 
+
+* un lien vers votre package dans un dépôt public sur GitHub,
+* vos codes pour la démo/benchmark,
+* votre graphique pour l’erreur de prédiction dans la validation croisée.
+* vos réponses aux questions ci-dessus.
+* mettez en gras une section « extra points » si vous tenter les exercises facultatives ci-dessous.
+* suivez [les standards dans la rédaction de code R](https://docs.google.com/document/d/1Mw5Nk9UHEoF_c1b5JqDCdeXP5pX1HPCQ8HSGCsVSw7M)
+
+# extra points
+
+* +10 si vous faites la démo/benchmark dans `vignettes/benchmark.Rmd`
+* +10 si vous faites un site web de documentation sur netlify. 
+  * Écrire docstrings comme dans [`python_example`](https://github.com/pybind/python_example).
+  * Suivre [ce tutoriel](https://py-pkgs.org/03-how-to-package-a-python#hosting-documentation-online) pour mettre en place vos docs sur readthedocs.
+* +10 si vous faites un GitHub Action pour calculer Couverture des tests, avec résultats accessible sur Codecov.
+  * Pour configuration vous pouvez utiliser [ce fichier](https://github.com/tdhock/nc/blob/master/.github/workflows/test-coverage.yaml).
+  * Ajouter un lien vers votre Codecov dans votre `README.md`, par ex https://app.codecov.io/gh/tdhock/nc?branch=master
