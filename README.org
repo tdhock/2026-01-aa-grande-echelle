@@ -109,9 +109,8 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
   - Diapos [[https://docs.google.com/presentation/d/1_07zwe1RA_oY0QS8LZ7aqipKKNWmhdvCLn_XIyGvowI][Créer un package R]].
   - créer interface pour un nouveau algorithme d’apprentissage dans mlr3.
 - 30 mar, semaine 13
-  - DevOps et MLOps: intégration et livraison en continu (CI-CD),
-    actions github, tests automatisés, couverture de code, analyse
-    comparative de performance en continu.
+  - Diapos [[https://docs.google.com/presentation/d/1PYO9l5NNVuzcIC1COzzyCl1Z6FrpNIyAVmhjXLXcFeQ/edit?usp=sharing][intégration]] et [[https://docs.google.com/presentation/d/1z4CB628HgZCvdK5Tm7U2Bww8-MfhBIedU3vlAGLth6g/edit?usp=sharing][déploiement]] en continu (CI-CD)
+  - actions github, tests automatisés, couverture de code, analyse comparative de performance en continu.
   - pas de cours le vendredi 3 avril (vendredi saint)
 - 6 avr, semaine 14
   - pas de cours le lundi 6 avril (pâques)
