@@ -117,9 +117,8 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
 - 13 avr, semaine 15
   - dernière semaine d’instruction
 - 20 avr, semaine 16
-  - révision
+  - examen le mardi 21,	13:30 à 16:30, D3-2031.
 - 27 avr, semaine 17
-  - examen
 
 ** Apprentissage de programmation
 
