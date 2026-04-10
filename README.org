@@ -114,6 +114,8 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
   - pas de cours le vendredi 3 avril (vendredi saint)
 - 6 avr, semaine 14
   - pas de cours le lundi 6 avril (pâques)
+  - https://github.com/tdhock/add.h26/pull/1
+  - https://github.com/tdhock/mlr3resampling/pull/81
 - 13 avr, semaine 15
   - dernière semaine d’instruction
   - Diapos [[https://docs.google.com/presentation/d/1HWStDr_t0F0BEFYGGsRURu3wNw2QdO9lZNUGRXt_28g/edit?usp=sharing][Contribution aux logiciels libres]]
