@@ -37,7 +37,7 @@ Je vous approuve [[https://ipa.ift704.calculquebec.cloud/ipa/ui/][ici]].
 | [[file:tps/tp7.md][TP7 : entraînement sur GPU]]           | 27 fév     |
 | [[file:tps/tp8.md][TP8 : création d’un package python]]   | 27 mars    |
 | [[file:tps/tp9.md][TP9 : création d’un package R]]        | 10 avril   |
-| TP10 : contribution sur GitHub       | 24 avril   |
+| [[file:tps/tp10.md][TP10 : contribution sur GitHub]]       | 24 avril   |
 
 L’échelle pour noter chaque TP.
 
