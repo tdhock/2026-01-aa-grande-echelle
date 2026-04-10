@@ -116,6 +116,8 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
   - pas de cours le lundi 6 avril (pâques)
 - 13 avr, semaine 15
   - dernière semaine d’instruction
+  - contribution aux logiciels libres.
+  - révision le vendredi 18 avril, présenter vos solutions pour points bonus.
 - 20 avr, semaine 16
   - examen le mardi 21,	13:30 à 16:30, D3-2031.
 - 27 avr, semaine 17
