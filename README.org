@@ -120,7 +120,7 @@ ou aller sur [[https://jupyter.ift704.calculquebec.cloud/hub/spawn][jupyter]].
 - 13 avr, semaine 15
   - dernière semaine d’instruction
   - Diapos [[https://docs.google.com/presentation/d/1HWStDr_t0F0BEFYGGsRURu3wNw2QdO9lZNUGRXt_28g/edit?usp=sharing][Contribution aux logiciels libres]]
-  - révision le vendredi 18 avril, présenter vos solutions pour points bonus.
+  - révision le vendredi 18 avril, présenter vos solutions de [[file:exam2.md][ces questions]], pour points bonus.
   - soumettre Draft Pull Request, et demander relecture de =@tdhock=, avant le lundi 20 avril.
 - 20 avr, semaine 16
   - examen le mardi 21,	13:30 à 16:30, D3-2031.
