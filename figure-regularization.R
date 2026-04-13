@@ -35,10 +35,9 @@ gg.neighbors <- ggplot()+
   scale_y_continuous("AUC sur l’ensemble validation")+
   scale_x_continuous("Nombre de voisins",breaks=c(1,seq(10,40,by=10)))+
   facet_grid(données ~ division, scales="free", labeller=label_both)
-png("figure-regularization-voisins.png", width=7, height=8, units="in", res=200)
+png("figure-regularization-voisins.png", width=7, height=9, units="in", res=200)
 print(gg.neighbors)
 dev.off()
-
 
 score_torch <- score_dt[
   grepl("torch",learner_id)
