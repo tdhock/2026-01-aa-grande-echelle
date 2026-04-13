@@ -4,7 +4,48 @@ En plus que toutes les questions de l’examen 1…
 
 ## 1. calcul sur carte graphique
 
-Nous avons du code PyTorch dans [ce fichier](https://github.com/tdhock/2023-08-deep-learning/blob/main/homeworks/09_homework.py). Comment modifier ce code pour pouvoir utiliser un GPU…
+Nous avons du code PyTorch, tiré de [ce fichier](https://github.com/tdhock/2023-08-deep-learning/blob/main/homeworks/09_homework.py).
+
+```py
+class TorchLearner:
+    def __init__(
+            self, units_per_layer, step_size=0.01,
+            batch_size=20, max_epochs=400):
+        self.max_epochs = max_epochs
+        self.batch_size=batch_size
+        self.model = TorchModel(units_per_layer)
+        self.loss_fun = torch.nn.MSELoss()
+        self.optimizer = torch.optim.SGD(
+            self.model.parameters(), lr=step_size)
+    def fit(self, split_data_dict):
+        ds = CSV(
+            split_data_dict["subtrain"]["X"],
+            split_data_dict["subtrain"]["y"])
+        dl = torch.utils.data.DataLoader(
+            ds, batch_size=self.batch_size, shuffle=True)
+        train_df_list = []
+        for epoch_number in range(self.max_epochs):
+            print(epoch_number)
+            for batch_features, batch_labels in dl:
+                self.optimizer.zero_grad()
+                loss_value = self.loss_fun(
+                    self.model(batch_features), batch_labels)
+                loss_value.backward()
+                self.optimizer.step()
+            for set_name, set_data in split_data_dict.items():
+                pred_vec = self.model(set_data["X"])
+                set_loss_value = self.loss_fun(pred_vec, set_data["y"])
+                train_df_list.append(pd.DataFrame({
+                    "set_name":[set_name],
+                    "loss":float(set_loss_value),
+                    "epoch":[epoch_number]
+                }))
+        self.train_df = pd.concat(train_df_list)
+    def predict(self, test_features):
+        return self.model(test_features)
+```
+
+Comment modifier ce code pour pouvoir utiliser un GPU…
   * A. …si nous avons assez de mémoire pour charger toutes les données ?
   * B. …si nous n’avons pas assez de mémoire pour charger toutes les données ?
   
